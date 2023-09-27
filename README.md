@@ -11,6 +11,7 @@ List of Hooks Used:
 - useMemo()
 - useCallback()
 - useLayoutEffect()
+- useReducer()
 
 CustomHooks:
 - useCounter()

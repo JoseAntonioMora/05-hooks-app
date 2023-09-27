@@ -26,7 +26,7 @@ npm run dev
 ```
 The folder is ordered as each session is requested. The *Main.jsx* file includes all the components imported and used, each one can be used only used as main component and uncomment the specific line.
 
-## API Excersie
+## API Excersise
 Folder 03-examples uses an API call to get random quote, as the orioginal API is no longer available another API has been used.
 - [Breaking Bad API](https://breakingbadquotes.xyz/)
 Please see details on API page about endpoints and how to use.

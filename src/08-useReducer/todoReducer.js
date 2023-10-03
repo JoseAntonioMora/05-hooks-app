@@ -11,10 +11,11 @@ export const todoReducer = ( initialState = [], action ) => {
             return initialState.map( todo=>{
 
                 if(todo.id === action.payload){
-                  return { ...todo,
-                   done: !todo.done
-                            }// va a realizar la función con cada elemento del arreglo 
-                  }
+                    return { ...todo,
+                        done: !todo.done
+                    }
+                }
+                return todo;
             })
 
         default:

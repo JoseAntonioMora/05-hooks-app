@@ -1,5 +1,5 @@
 export const todoReducer = ( initialState = [], action ) => {
-    switch ( nactio.type ) {
+    switch ( action.type ) {
         case '[TODO] Add Todo':
             return [ ...initialState, action.payload ];
             break;

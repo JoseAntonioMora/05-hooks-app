@@ -9,7 +9,7 @@ export const TodoAdd = ({ onNewTodo }) => {
     const onFormSubmit = (event) => {
         event.preventDefault();
 
-        console.log(description);
+        // console.log(description);
 
         if(description.lenght <= 2) return;
 

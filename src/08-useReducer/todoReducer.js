@@ -1,5 +1,5 @@
 export const todoReducer = ( initialState = [], action ) => {
-    switch ( action.type ) {
+    switch ( nactio.type ) {
         case '[TODO] Add Todo':
             return [ ...initialState, action.payload ];
             break;
@@ -12,7 +12,7 @@ export const todoReducer = ( initialState = [], action ) => {
 
                 if(todo.id === action.payload){
                   return { ...todo,
-                   done:!todo.done
+                   done: !todo.done
                             }// va a realizar la función con cada elemento del arreglo 
                   }
             })

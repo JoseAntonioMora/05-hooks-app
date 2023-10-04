@@ -38,5 +38,9 @@ Link for this API to [Github Repository](https://github.com/shevabam/breaking-ba
 ## TODO App
 Main.jsx file has the todo app, this app uses localstorage to save items, this project is deployed in [Netlify](https://todo-app-jantoniomora.netlify.app/)
 
+## ReactRouter
+Router has been added to navigate between pages, using last version.
+-[Router](https://reactrouter.com/)
+
 # Course
 [React: De cero a experto ( Hooks y MERN )](https://www.udemy.com/course/react-cero-experto/)
